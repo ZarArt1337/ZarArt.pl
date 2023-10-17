@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300&family=Poppins:wght@400" rel="stylesheet"> 
+    <link rel="stylesheet" href="./css/style.css">
+    <script type="module" src="./script.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <title>Artur Zaremba Portfolio</title>
+    
+</head>
+<body>
+
+    <!--Navigation-->
+    <nav class="navbar navbar-expand-lg back-color text-light py-4 fixed-top ps-3" data-bs-theme="dark" id="navbar-spy">
+        <div class="container pe-4">
+            <a class="navbar-brand" href="index.html"><p class="m-0 p-0 text-logo typewriter text-linear">Artur Zaremba</p></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" 
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link px-5 active" href="#">Home</a>
+                    <a class="nav-link px-5" href="#projects">Projekty</a>
+                    <a class="nav-link px-5" href="#technology">Technologie</a>
+                    <a class="nav-link px-5" href="#contact">Kontakt</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <section id="home" class="home m-5 p-5">
+        <div class="container d-flex flex-column text-dark pt-5 mt-5">
+            <div class="row">
+                <div class="col-12 col-md-6 text-light rounded p-2 home-box">
+                    <p class="display-5 pt-5 mt-1 pb-1 mb-1 font-2nd">Witam!</p>
+                    <p class="home-text font-2nd px-2 pt-5">Mam na imię Artur i mam 34 lata. </p> 
+                    <p class="home-text pb-2 font-2nd px-2 pt-2">Nauką projektowania i tworzenia stron zajmuję się od tego roku (2023). Pierwsze swoje doświadczenie z tym związane nabyłem już podczas uczęszczania do technikum informatycznego. Po ukończeniu technikum moja droga zawodowa była jednak związana z czymś innym niż informatyka / projektowanie stron. W tym roku postanowiłem powrócić do tego i z pełnym zapałem kształcę się w tym kierunku poznając nowe technologie oraz odświeżając te, które już kiedyś poznałem.</p>
+                    <p class="home-text pb-5 font-2nd px-2 pb-5">Aktualnie poszukuję pracy/stażu/płatnych praktyk jako Frontend Developer.</p>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <section id="projects" class="projects p-5 m-2 border-top">
+        <p class="display-1 text-center text-light text-shadow py-5">Projekty</p>
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col p-5">
+              <div class="card project-box">
+                <img src="./img/zarart.jpg" class="card-img-top border" alt="...">
+                <div class="card-body pt-4">
+                    <h4 class="card-title">ZarArt.pl</h4>
+                    <p class="card-text">Strona internetowa dla własnego użytku. Poświęcona mojemu hobby - czyli malowaniu figurek.</p>
+                    <h4 class="py-4">Technologie użyte:</h3>
+                    <img src="./img/html.png" alt="html5" class="web-icon" title="HTML 5">
+                    <img src="./img/bootstrap.png" alt="bootstrap5" class="web-icon" title="Bootstrap 5">
+                    <img src="./img/css-3.png" alt="css3" class="web-icon" title="CSS 3">
+                    <img src="./img/js.png" alt="js" class="web-icon" title="JavaScript">
+                    <img src="./img/php.png" alt="php" class="web-icon" title="PHP">
+                    <p class="text-center pt-5 pb-2">
+                        <a href="https://github.com/ZarArt1337/ZarArt.pl" class="px-2"><i class="fa-brands fa-github"></i></a>
+                        <a href="http://zarart.pl" class="px-2"><i class="fa-solid fa-desktop"></i></a>
+                    </p>
+                </div>
+              </div>
+            </div>
+            <div class="col p-5">
+              <div class="card project-box">
+                <img src="./img/pizzeria.jpg" class="card-img-top" alt="...">
+                <div class="card-body pt-4">
+                    <h4 class="card-title">Szablon Pizzeria</h4>
+                    <p class="card-text">Szablon strony internetowej - tematyka: pizzeria/restauracja. One Page Website</p>
+                    <h4 class="py-4">Technologie użyte:</h3>
+                    <img src="./img/html.png" alt="html5" class="web-icon" title="HTML 5">
+                    <img src="./img/bootstrap.png" alt="bootstrap5" class="web-icon" title="Bootstrap 5">
+                    <img src="./img/css-3.png" alt="css3" class="web-icon" title="CSS 3">
+                    <img src="./img/js.png" alt="js" class="web-icon" title="JavaScript">
+                    <p class="text-center pt-5 pb-2">
+                        <a href="https://github.com/ZarArt1337/Pizzeria-Template" class="px-2"><i class="fa-brands fa-github"></i></a>
+                        <a href="http://zarart.cba.pl/" class="px-2"><i class="fa-solid fa-desktop"></i></a>
+                    </p>
+                </div>
+              </div>
+            </div>
+            <div class="col p-5">
+              <div class="card project-box">
+                <img src="./img/hairsalon.jpg" class="card-img-top" alt="...">
+                <div class="card-body pt-4">
+                    <h4 class="card-title">Szablon Fryzjer</h4>
+                    <p class="card-text">Szablon strony internetowej - tematyka: fryzjer/barber. One Page Website</p>
+                    <h4 class="py-4">Technologie użyte:</h3>
+                    <img src="./img/html.png" alt="html5" class="web-icon" title="HTML 5">
+                    <img src="./img/bootstrap.png" alt="bootstrap5" class="web-icon" title="Bootstrap 5">
+                    <img src="./img/css-3.png" alt="css3" class="web-icon" title="CSS 3">
+                    <img src="./img/js.png" alt="js" class="web-icon" title="JavaScript">
+                    <p class="text-center pt-5 pb-2">
+                        <a href="https://github.com/ZarArt1337/HairSalon" class="px-2"><i class="fa-brands fa-github"></i></a>
+                        <a href="http://zarart.cba.pl/barber/" class="px-2"><i class="fa-solid fa-desktop"></i></a>
+                    </p>
+                </div>
+              </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="technology" class="technology m-2 p-5 border-top">
+        <div class="container d-flex flex-column text-dark">
+            <div class="row text-center">
+                <p class="display-1 text-light text-shadow text-center py-5">Technologie</p>
+                <div class="col-12 p-5 home-box">
+                    <p class="text-shadow text-light pb-5">Podstawowa znajomość:</p>
+                </div>
+                <div class="col-6 col-md-3 py-3">
+                    <span>
+                        <img src="./img/html.png" alt="html5" class="web-icon-big" title="HTML 5">
+                        <p class="text-light text-shadow">HTML 5</p>
+                    </span>
+                </div>
+                <div class="col-6 col-md-3 py-3">
+                    <span>
+                        <img src="./img/bootstrap.png" alt="bootstrap5" class="web-icon-big" title="Bootstrap 5">
+                        <p class="text-light text-shadow">Bootstrap 5</p>
+                    </span>
+                </div>
+                <div class="col-6 col-md-3 py-3">
+                    <span>
+                        <img src="./img/css-3.png" alt="css3" class="web-icon-big" title="CSS 3">
+                        <p class="text-light text-shadow">CSS 3</p>
+                    </span>
+                </div>
+                <div class="col-6 col-md-3 py-3">
+                    <span>
+                        <img src="./img/js.png" alt="js" class="web-icon-big" title="JavaScript">
+                        <p class="text-light text-shadow">JavaScript</p>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="thx" class="sent m-5 p-5">
+        <div class="container bg-light p-5 m-5 text-center justify-content-center w-100">
+            <p class="sent-text text-success p-5 m-5">Twoja wiadomość została wysłana</p>
+        </div> 
+    </section>
+
+    <footer class="m-2 p-3 border-top">
+        <div class="container text-center py-5 text-light">
+            <div class="row">
+
+                <div class="col-lg-8 mb-3 m-lg-0"><p>2023 <span class="gold-color">&copy;</span><a href="https://zarart.pl" class="text-decoration-none contact-info"> ZarArt</a></p></div>
+        
+                <div class="col-lg-2 my-1 m-lg-0"><p><i class="bi bi-instagram"></i><a href="https://www.instagram.com/zarart.pl/" class="text-decoration-none contact-info"> Instagram</a></p></div>
+
+                <div class="col-lg-2 mb-3 m-lg-0"><p><i class="bi bi-facebook"></i><a href="https://www.facebook.com/profile.php?id=100070167114186" class="text-decoration-none contact-info"> Facebook</a></p></div>
+            </div>
+        </div>
+    </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+</html>
+
+
+

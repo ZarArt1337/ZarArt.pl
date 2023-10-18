@@ -14,7 +14,7 @@ Website build with PHP include my simple CMS (my other project) which i use for 
 
 # Demo:
 
-http://wwwZarArt.pl
+http://www.ZarArt.pl
 
 <img src="https://github.com/ZarArt1337/ZarArt.pl/assets/132918164/c86b3497-95c3-4575-8392-26acbbda3b74" width="300">
 
